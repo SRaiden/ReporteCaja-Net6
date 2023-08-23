@@ -1,0 +1,14 @@
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\bin\Debug\net6.0\ReporteCaja.Entity.deps.json
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\bin\Debug\net6.0\ReporteCaja.Entity.runtimeconfig.json
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\bin\Debug\net6.0\ReporteCaja.Entity.dll
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\bin\Debug\net6.0\ReporteCaja.Entity.pdb
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\obj\Debug\net6.0\ReporteCaja.Entity.csproj.AssemblyReference.cache
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\obj\Debug\net6.0\ReporteCaja.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\obj\Debug\net6.0\ReporteCaja.Entity.AssemblyInfoInputs.cache
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\obj\Debug\net6.0\ReporteCaja.Entity.AssemblyInfo.cs
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\obj\Debug\net6.0\ReporteCaja.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\obj\Debug\net6.0\ReporteCaja.Entity.dll
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\obj\Debug\net6.0\refint\ReporteCaja.Entity.dll
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\obj\Debug\net6.0\ReporteCaja.Entity.pdb
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\obj\Debug\net6.0\ReporteCaja.Entity.genruntimeconfig.cache
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.Entity\obj\Debug\net6.0\ref\ReporteCaja.Entity.dll

@@ -1,0 +1,12 @@
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.DAL\bin\Debug\net6.0\ReporteCaja.DAL.deps.json
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.DAL\bin\Debug\net6.0\ReporteCaja.DAL.dll
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.DAL\bin\Debug\net6.0\ReporteCaja.DAL.pdb
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.DAL\obj\Debug\net6.0\ReporteCaja.DAL.csproj.AssemblyReference.cache
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.DAL\obj\Debug\net6.0\ReporteCaja.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.DAL\obj\Debug\net6.0\ReporteCaja.DAL.AssemblyInfoInputs.cache
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.DAL\obj\Debug\net6.0\ReporteCaja.DAL.AssemblyInfo.cs
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.DAL\obj\Debug\net6.0\ReporteCaja.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.DAL\obj\Debug\net6.0\ReporteCaja.DAL.dll
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.DAL\obj\Debug\net6.0\refint\ReporteCaja.DAL.dll
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.DAL\obj\Debug\net6.0\ReporteCaja.DAL.pdb
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.DAL\obj\Debug\net6.0\ref\ReporteCaja.DAL.dll

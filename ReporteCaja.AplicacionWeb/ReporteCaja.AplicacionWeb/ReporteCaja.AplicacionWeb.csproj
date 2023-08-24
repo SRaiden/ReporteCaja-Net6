@@ -6,4 +6,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReporteCaja.BLL\ReporteCaja.BLL.csproj" />
+    <ProjectReference Include="..\ReporteCaja.Entity\ReporteCaja.Entity.csproj" />
+    <ProjectReference Include="..\ReporteCaja.IOC\ReporteCaja.IOC.csproj" />
+  </ItemGroup>
+
 </Project>

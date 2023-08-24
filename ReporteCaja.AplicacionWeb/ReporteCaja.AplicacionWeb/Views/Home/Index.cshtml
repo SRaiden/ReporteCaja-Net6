@@ -1,8 +1,137 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Pedidos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+@section Estilos{
+    <!-- ============================================================
+    =ESTILOS PARA ESTA PAGINA
+    ===============================================================-->
+    <link rel="stylesheet" href="~/vendor/datatables/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="~/vendor/datatables/extensiones/css/responsive.dataTables.min.css">
+    <link rel="stylesheet" href="~/vendor/datatables/extensiones/css/buttons.dataTables.min.css">
+
+    <link rel="stylesheet" href="~/css/reportesCaja.css">
+}
+
+<div class="content-wrapper">
+    <!-- BUSQUEDA -->
+    <div class="card mb-4">
+
+        <h5 class="card-header">Busqueda de Pedidos</h5>
+        <br />
+
+        <input id="userLogin" name="userLogin" value="@ViewBag.user" hidden />
+        <input id="rolLogin" name="rolLogin" value="@ViewBag.rolLogin" hidden />
+
+        <div class="card-body">
+            <div class="row gx-3 gy-2 align-items-center">
+                @if (ViewBag.idEmpresaLogin == "0" && ViewBag.idSucursalLogin == "0") // soy SuperAdmin
+                {
+                    <div class="d-grid gap-2 col-lg-6 mx-auto">
+                        <label class="form-label" for="selectTypeOpt">Empresas</label>
+                        <select id="cboEmpresas" name="cboEmpresas" class="form-select color-dropdown">
+                        </select>
+                    </div>
+
+                    <div class="d-grid gap-2 col-lg-6 mx-auto">
+                        <label class="form-label" for="selectPlacement">Sucursales</label>
+                        <select class="form-select placement-dropdown" id="cboSucursales" name="cboSucursales">
+                        </select>
+                    </div>
+                }
+                else if (ViewBag.idSucursalLogin == "0") // Soy Admin de Sucursales
+                {
+                    <div class="d-grid gap-2 col-lg-6 mx-auto">
+                        <label class="form-label" for="selectPlacement">Sucursales</label>
+                        <select class="form-select placement-dropdown" id="cboSucursales" name="cboSucursales">
+                        </select>
+                    </div>
+                    <input id="cboEmpresas" name="cboEmpresas" value="@ViewBag.idEmpresaLogin" hidden />
+                }
+                else
+                { // Soy User
+                    <input id="cboSucursales" name="cboSucursales" value="@ViewBag.idSucursalLogin" hidden />
+                    <input id="cboEmpresas" name="cboEmpresas" value="@ViewBag.idEmpresaLogin" hidden />
+                }
+            </div>
+
+            <!-- Radio -->
+            <div class="justify-content-center">
+                <div class="row gy-3">
+                    <div class="col-xl-6">
+                        <div class="demo-vertical-spacing">
+                            <!-- Radio -->
+                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                <input type="radio" class="btn-check" name="rbReporte" id="rbCaja"/>
+                                <label class="btn btn-outline-primary" for="rbCaja">Caja</label>
+                                <input type="radio" class="btn-check" name="rbReporte" id="rbProductos"/>
+                                <label class="btn btn-outline-primary" for="rbProductos">Productos Por Periodo</label>
+                                <input type="radio" class="btn-check" name="rbReporte" id="rbTickets"/>
+                                <label class="btn btn-outline-primary" for="rbTickets">Tickets Diarios</label>
+                                <input type="radio" class="btn-check" name="rbReporte" id="rbFormasPago"/>
+                                <label class="btn btn-outline-primary" for="rbFormasPago">Formas de Pago</label>
+                                <input type="radio" class="btn-check" name="rbReporte" id="rbCierreZ"/>
+                                <label class="btn btn-outline-primary" for="rbCierreZ">Cierre Z</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Radio -->
+
+            <br />
+
+            <!-- Date -->
+            <div class="row gx-3 gy-2 align-items-center">
+                <div class="d-grid gap-2 col-lg-6 mx-auto">
+                    <label for="form-label" class="form-label">Desde</label>
+                    <input class="form-control" type="date" id="txtDesde" name="txtDesde" />
+                </div>
+
+                <div class="d-grid gap-2 col-lg-6 mx-auto">
+                    <label for="form-label" class="form-label">Hasta</label>
+                    <input class="form-control" type="date" id="txtHasta" name="txtHasta" />
+                </div>
+            </div>
+            <!-- /Date -->
+            <br />
+
+        </div>
+    </div>
+    <!--/ BUSQUEDA -->
+
+
+    <!-- TABLA -->
+    <div class="card">
+        <div class="table-responsive text-nowrap">
+            <table class="table" id="tbdata">
+                <thead>
+                </thead>
+                <tbody class="table-border-bottom-0">
+                   
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <!--/ TABLA -->
+
+    <a id="Reporte" hidden> Reporte </a>
 </div>
+
+@section scripts{
+    <!-- ============================================================
+    =SCRIPTS PARA ESTA PAGINA
+    ===============================================================-->
+    <script src="~/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <script src="~/vendor/datatables/extensiones/js/dataTables.responsive.min.js"></script>
+
+    <script src="~/vendor/datatables/extensiones/js/dataTables.buttons.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/jszip.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/buttons.html5.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/buttons.print.min.js"></script>
+}

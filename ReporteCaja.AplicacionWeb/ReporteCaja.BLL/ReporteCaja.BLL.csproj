@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ReporteCaja.DAL\ReporteCaja.DAL.csproj" />
+    <ProjectReference Include="..\ReporteCaja.Entity\ReporteCaja.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

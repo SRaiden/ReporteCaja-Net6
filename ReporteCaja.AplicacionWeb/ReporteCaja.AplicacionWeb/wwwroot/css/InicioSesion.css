@@ -1,0 +1,54 @@
+body {
+    font-family: poppins;
+    background-color: rgb(205, 218, 241);
+    background-image: url(../Imgs/rsc-reporting.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(6px);
+}
+
+.flex-container {
+    border: 1px solid rgb(68, 63, 112);
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    margin: 15% auto;
+    background: #8b878780;
+    padding: 20px 20px;
+}
+
+.login-box {
+    display: flex;
+    justify-content: center;
+}
+
+
+.h1_ingresar {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: #17202A;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.input_login {
+    border-color: black;
+    background-color: transparent;
+    /* border-block: initial; */
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-size: 17px;
+    font-family: poppins;
+    line-height: 1.7px;
+    width: 250px;
+}
+
+.btn_iniciarSesion {
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 0px;
+    color: #fff;
+    background-color: #337ab7;
+}

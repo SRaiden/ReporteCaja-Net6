@@ -10,3 +10,10 @@ C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\R
 C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.IOC\obj\Debug\net6.0\refint\ReporteCaja.IOC.dll
 C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.IOC\obj\Debug\net6.0\ReporteCaja.IOC.pdb
 C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.IOC\obj\Debug\net6.0\ref\ReporteCaja.IOC.dll
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.IOC\bin\Debug\net6.0\ReporteCaja.BLL.dll
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.IOC\bin\Debug\net6.0\ReporteCaja.DAL.dll
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.IOC\bin\Debug\net6.0\ReporteCaja.Entity.dll
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.IOC\bin\Debug\net6.0\ReporteCaja.BLL.pdb
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.IOC\bin\Debug\net6.0\ReporteCaja.DAL.pdb
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.IOC\bin\Debug\net6.0\ReporteCaja.Entity.pdb
+C:\Users\Nata\OneDrive\Documentos\GitHub\ReporteCaja\ReporteCaja.AplicacionWeb\ReporteCaja.IOC\obj\Debug\net6.0\ReporteCaja.IOC.csproj.CopyComplete

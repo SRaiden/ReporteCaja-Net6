@@ -27,6 +27,11 @@ namespace ReporteCaja.IOC
 
             // Conecto las interfaces con sus repositorios respectivos
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>)); // ABM generico
+
+            services.AddScoped<ICorreoServices, CorreoServices>(); // Servicio Correo
+            services.AddScoped<IUtilidadesServices, UtilidadesServices>(); // Generar y Encriptar Claves de login
+            services.AddScoped<ICajaUsuariosServices, CajaUsuariosServices>(); // Caja_Usuarios
+            services.AddScoped<ICajaServices, CajaServices>(); // Caja
         }
     }
 }

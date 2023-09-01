@@ -31,7 +31,9 @@ namespace ReporteCaja.IOC
             services.AddScoped<ICorreoServices, CorreoServices>(); // Servicio Correo
             services.AddScoped<IUtilidadesServices, UtilidadesServices>(); // Generar y Encriptar Claves de login
             services.AddScoped<ICajaUsuariosServices, CajaUsuariosServices>(); // Caja_Usuarios
-            services.AddScoped<ICajaServices, CajaServices>(); // Caja
+            services.AddScoped<ICajaReporteServices, CajaReporteServices>(); // Caja
+            services.AddScoped<IEmpresasServices, EmpresasServices>(); // Empresa
+            services.AddScoped<ISucursalesServices, SucursalServices>(); // Sucursal
         }
     }
 }

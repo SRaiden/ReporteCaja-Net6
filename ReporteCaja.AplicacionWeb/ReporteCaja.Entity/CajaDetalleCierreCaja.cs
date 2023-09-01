@@ -20,4 +20,5 @@ public partial class CajaDetalleCierreCaja
     public int? EmpresaId { get; set; }
 
     public int? SucursalId { get; set; }
+
 }
